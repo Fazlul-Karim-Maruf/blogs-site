@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap");
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  background: url("download.jpeg") no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+
+
+}
+
+
+nav {
+  
+  background-image: linear-gradient(to right, #0420C8, #570744);
+  backdrop-filter: blur(60px);
+  position: fixed;
+  top: 0;
+  width: 100%;
+
+}
+#nav{
+  padding-bottom: 8%;
+}
+
+.btnn {
+  text-decoration: none;
+  margin: 20px auto;
+  width: fit-content;
+  border: 1px solid #ff004f;
+  padding: 7px 15px;
+  border-radius: 6px;
+  color: #fff;
+  transition: background 0.5s;
+  background: #b11a49;
+  margin-right: 20px;
+
+}
+
+.btnn:hover {
+  background: #ff004f;
+}
+
+.username {
+  color: #fff;
+
+}
+
+.dropdown {
+  padding-top: 0px;
+  padding-right: 40px;
+}
+
+.logout {
+  text-decoration: none;
+  margin: 20px auto;
+  display: block;
+  width: fit-content;
+  border: 1px solid #ff004f;
+  padding: 7px 15px;
+  border-radius: 6px;
+  color: #fff;
+  transition: background 0.5s;
+  background: #b11a49;
+
+}
+
+.dropdown-menu {
+  background-image: linear-gradient(to top, #50094E, #570941);
+}
+
+.logo {
+  height: 70px;
+  width: 100px;
+  border-radius: 90%;
+}
+
+.img {
+  height: 40px;
+  width: 40px;
+  border-radius: 100%;
+  padding-left: 10px 10px;
+}
